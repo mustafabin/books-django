@@ -28,6 +28,9 @@ Starter code is available in [`lib/challenge.js`](lib/challenge.js). You are
 required to turn in your submission by making a pull request on the original
 repository.
 
+Unless otherwise specified on the calendar or by an instructor, homework is due
+the next morning by 9:00am.
+
 ## Requirements
 
 Describe behavioral requirements as you'll be using them in tests. That is,
