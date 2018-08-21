@@ -1,6 +1,6 @@
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
-# Challenge Template
+# Homework Template
 
 Use this template to structure your READMEs for diagnostics.
 
@@ -19,10 +19,10 @@ configuration ([`.remarkrc`](.remarkrc)).
 
 ## Instructions
 
-1.  Fork and clone this repository.
-1.  Change into the new directory.
-1.  Install dependencies.
-1.  Fulfill the listed requirements.
+1. Fork and clone this repository.
+1. Change into the new directory.
+1. Install dependencies.
+1. Fulfill the listed requirements.
 
 Starter code is available in [`lib/challenge.js`](lib/challenge.js). You are
 required to turn in your submission by making a pull request on the original
