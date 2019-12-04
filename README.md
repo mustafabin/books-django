@@ -20,7 +20,9 @@ Please turn in your submission by the deadline on your cohort calendar.
 
 ## Requirements
 
-### Part 1: Setup
+### Part 1
+
+#### Setup
 
 Create a new Django project and app. Define a `Book` model and create a few
 instances through the admin interface.
@@ -29,7 +31,7 @@ Don't forget to create a new database and user in Postgres!
 
 Install the `djangorestframework` module for the next section.
 
-### Part 2: Build the Model and Serializer
+### Build the Model and Serializer
 
 Define
 a [`ModelSerializer`](https://www.django-rest-framework.org/api-guide/serializers/#modelserializer)
@@ -38,7 +40,7 @@ for your Book Model.
 > Note: Do not use the `HyperlinkedModelSerializer` serializer. That serializer
 > is for linked models. Here we have just a plain model.
 
-### Part 3: Views and URLS
+### Views and URLS
 
 Once you have your model and serializer in place, use the [generic
 views](https://www.django-rest-framework.org/api-guide/generic-views/) to create
@@ -46,6 +48,14 @@ your views and URLs.
 
 Make it so you can perform full CRUD on your Book model (without needing to be
 logged in).
+
+### Part 2
+
+Implement a `User` model with authentication. Users should be able to create an
+account, sign in (through the API, not a UI), and get a token.
+
+Set up permissions so that any user can read books from your database (both list
+and detail), but only authenticated users can create, update, or delete books.
 
 ## Bonus
 
