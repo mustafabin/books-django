@@ -4,11 +4,6 @@
 
 Use Django and the Django REST Framework to build an API of books.
 
-## Prerequisites
-
-- Django
-- Django REST Framework
-
 ## Instructions
 
 1.  Fork and clone this repository.
@@ -24,8 +19,8 @@ Please turn in your submission by the deadline on your cohort calendar.
 
 #### Setup
 
-Create a new Django project and app. Define a `Book` model and create a few
-instances through the admin interface.
+Create a new Django project and app. 
+Define a `Book` model and create a few instances through the admin interface.
 
 Don't forget to create a new database and user in Postgres!
 
@@ -33,9 +28,7 @@ Install the `djangorestframework` module for the next section.
 
 ### Build the Model and Serializer
 
-Define
-a [`ModelSerializer`](https://www.django-rest-framework.org/api-guide/serializers/#modelserializer)
-for your Book Model.
+Define a [`ModelSerializer`](https://www.django-rest-framework.org/api-guide/serializers/#modelserializer) for your Book Model.
 
 > Note: Do not use the `HyperlinkedModelSerializer` serializer. That serializer
 > is for linked models. Here we have just a plain model.
