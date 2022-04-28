@@ -5,6 +5,7 @@ BOOK_SUBJECTS = [
     ('SCI', 'Science'),
     ('FIC', 'Fiction'),
     ('NON', 'Non-Fiction'),
+    ('HIS', 'History'),
 ]
 
 
